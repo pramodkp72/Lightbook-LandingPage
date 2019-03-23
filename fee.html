@@ -50,11 +50,59 @@
     </head>
   <body>
     
+ <!-- ==================================================
+							Header
+	================================================== -->
     <!-- ==================================================
-                            Header Div
-    ================================================== -->
-    <div id="header">
-    </div>
+							load-wrapp
+	================================================== -->
+	<div class="load-wrapp">
+            <div class="wrap">
+                <ul class="dots-box">
+                    <li class="dot"><span></span></li>
+                    <li class="dot"><span></span></li>
+                    <li class="dot"><span></span></li>
+                    <li class="dot"><span></span></li>
+                    <li class="dot"><span></span></li>
+                </ul>
+            </div>
+        </div> 
+        <!-- ==================================================
+                                End load-wrapp
+        ================================================== -->
+        
+        <!-- ==================================================
+                                navbar
+        ================================================== -->
+        <nav class="navbar navbar-black-links navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"> 
+                    <img src="images/1x/logo.png" style="max-height: 45px;" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-navbar">
+                    <ul class="navbar-nav ml-auto">  
+                        <li class="nav-item">
+                            <a class="nav-link" href="" data-scroll-nav="1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll-nav="2">Contact Us</a>
+                        </li>
+                        <li class="nav-item log-in">
+                            <a class="nav-link flex-center bg-blue radius-5px transition-3" href="/login">Log In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ==================================================
+                                End navbar
+        ================================================== -->
+        <!-- ==================================================
+							End Header
+        ================================================== -->
     
         <!-- ==================================================
 							welcome-area
@@ -104,10 +152,6 @@
 
     <script src="jss/jquery-3.3.1.min.js"></script>
     <script src="jss/jquery-migrate-3.0.0.min.js"></script>
-
-    <script>
-        $("#header").load("header.html");
-    </script>
 
     <script>
         $("#footer").load("footer.html");

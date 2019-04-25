@@ -90,6 +90,8 @@ p{
 	color: #737373;
 	margin-bottom: 10px;
 	font-family: 'Poppins', sans-serif;
+	text-align: justify;
+	padding-bottom: 10px;
 }
 
 p.p-big{
